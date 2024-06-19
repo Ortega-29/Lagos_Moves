@@ -1,0 +1,86 @@
+body {
+    background-color: #fff6cf; /* Pastel yellow background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ensure elements stack vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Danfo.jpg'); /* Replace with your image path */
+    overflow-y: auto;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.site-title {
+    font-family: 'Roboto Condensed', sans-serif; /* Fun font */
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #fdd835; /* Yellow button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #fbc02d; /* Darker yellow on hover */
+}
+
+#results {
+    margin-top: 30px;
+}
+
+#resultForRent, #recommendation {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.location-result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.location-name {
+    font-family: 'Your Fun Font', cursive; /* Replace with your fun font */
+    font-size: 18px; /* Adjust font size as needed */
+    margin-bottom: 5px;
+}
